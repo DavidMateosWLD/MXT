@@ -1,11 +1,13 @@
 import { PayBlock } from "./components/Pay";
 import { VerifyBlock } from "./components/Verify";
 
-export default function App() {
+export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 gap-y-3">
-      <VerifyBlock />
-      <PayBlock />
+    <main style={{ padding: "2rem", textAlign: "center" }}>
+      <h1>Hello, World!</h1>
+      <p>This is my first Next.js app!</p>
     </main>
   );
+}
+
 }
